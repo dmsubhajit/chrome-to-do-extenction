@@ -1,5 +1,8 @@
 # chrome-to-do-extenction
 
+![Preview](https://github.com/dmsubhajit/chrome-to-do-extenction/blob/main/to-do-list.png/Screenshot.png)
+
+
 # Chrome Extension - To-Do App
 
 This is a simple Chrome extension for managing tasks with two groups: **Work** and **Personal**.
