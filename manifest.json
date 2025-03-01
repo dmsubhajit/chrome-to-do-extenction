@@ -1,0 +1,17 @@
+{
+    "manifest_version": 3,
+    "name": "To-Do List Extension",
+    "version": "1.0",
+    "description": "A simple to-do list with Work and Personal categories.",
+    "permissions": ["storage"],
+    "action": {
+      "default_popup": "popup.html",
+      "default_icon": "to-do-list.png"
+    },
+    "icons": {
+    "16": "to-do-list.png",
+    "48": "to-do-list.png",
+    "128": "to-do-list.png"
+  }
+  }
+  
