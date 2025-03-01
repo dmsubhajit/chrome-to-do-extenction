@@ -7,28 +7,39 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <h2>To-Do List</h2>
+    <div class="container">
+        <h2>To-Do List</h2>
 
-    <!-- Work Task Section -->
-    <div class="task-group">
-        <h3>Work</h3>
-        <div class="input-container">
-            <input type="text" id="work-input" placeholder="Add work task">
-            <button id="add-work-task" class="add-btn">Add</button>
+        <!-- Dark Mode Toggle -->
+        <label class="toggle-switch">
+            <input type="checkbox" id="dark-mode-toggle">
+            <span class="slider"></span>
+        </label>
+        <span class="toggle-text">Dark Mode</span>
+
+        <!-- Work Tasks -->
+        <div class="task-group">
+            <h3>Work</h3>
+            <div class="input-container">
+                <input type="text" id="work-input" placeholder="Add work task">
+                <button id="add-work-task" class="add-btn">Add</button>
+            </div>
+            <ul id="work-list" class="sortable-list"></ul>
         </div>
-        <ul id="work-list"></ul>
+
+        <!-- Personal Tasks -->
+        <div class="task-group">
+            <h3>Personal</h3>
+            <div class="input-container">
+                <input type="text" id="personal-input" placeholder="Add personal task">
+                <button id="add-personal-task" class="add-btn">Add</button>
+            </div>
+            <ul id="personal-list" class="sortable-list"></ul>
+        </div>
     </div>
 
-    <!-- Personal Task Section -->
-    <div class="task-group">
-        <h3>Personal</h3>
-        <div class="input-container">
-            <input type="text" id="personal-input" placeholder="Add personal task">
-            <button id="add-personal-task" class="add-btn">Add</button>
-        </div>
-        <ul id="personal-list"></ul>
-    </div>
-
-    <script src="popup.js"></script> <!-- ✅ Script loaded at the end -->
+    <!-- Load Local Scripts -->
+    <script src="Sortable.min.js"></script> <!-- Use local file -->
+    <script src="popup.js"></script>
 </body>
 </html>
