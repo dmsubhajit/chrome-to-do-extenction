@@ -1,6 +1,6 @@
 # chrome-to-do-extenction
 
-![Preview](https://github.com/dmsubhajit/chrome-to-do-extenction/blob/main/to-do-list.png/Screenshot.png)
+![Preview](https://github.com/dmsubhajit/chrome-to-do-extenction/blob/main/Screenshot.png)
 
 
 # Chrome Extension - To-Do App
